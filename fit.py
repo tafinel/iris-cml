@@ -10,7 +10,7 @@ import cdsw
 
 import matplotlib.pyplot as plt
 
-print('verssion 2')
+print('verssion 3')
 
 iris = datasets.load_iris()
 test_size = 20
