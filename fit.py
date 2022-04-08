@@ -42,3 +42,9 @@ print('Variance score: %.2f' % r2)
 filename = 'model.pkl'
 pickle.dump(model, open(filename, 'wb'))
 cdsw.track_file(filename)
+
+# Output
+filename = 'another.pkl'
+pickle.dump(model, open(filename, 'wb'))
+cdsw.track_file(filename)
+
