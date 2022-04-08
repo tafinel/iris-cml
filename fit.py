@@ -38,13 +38,7 @@ r2 = r2_score(score_y, predictions)
 cdsw.track_metric("r2", r2)
 print('Variance score: %.2f' % r2)
 
-# Output
+# Output - pra cima
 filename = 'model.pkl'
 pickle.dump(model, open(filename, 'wb'))
 cdsw.track_file(filename)
-
-# Output
-filename = 'another.pkl'
-pickle.dump(model, open(filename, 'wb'))
-cdsw.track_file(filename)
-
